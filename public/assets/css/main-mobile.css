@@ -1,0 +1,47 @@
+@media only screen and (max-width: 512px) {
+    
+    #app {
+        grid-template-columns: none;
+        grid-template-rows: 12% 88%;
+        height: auto;
+    }
+    
+    .sidebar {
+        overflow: scroll;
+    }
+
+    .sidebar-icons {
+        height: auto;
+    }
+
+    .sidebar-bottom {
+        display: none;
+    }
+    .mobile-sidebar-bottom {
+        display: block;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+
+    .content h2 {
+        text-align: center;
+    }
+
+    .artists-cards {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;
+        height: auto;
+    }
+    .searchbar {
+        width: 100%;
+    }
+    .multi-range {
+        height: 25px;
+    }
+
+    .container-fluid {
+        max-height: none;
+    }
+}
